@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C6BFBF"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Employee Details"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imagedisplay"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eIDTxt"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:textStyle="bold|normal"
+
+        android:hint="Employee ID"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enameTxt"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:textStyle="bold|normal"
+
+        android:hint="Employee Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/esalTxt"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:textStyle="bold|normal"
+
+        android:hint="Employee Salary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edesignationTxt"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:textStyle="bold|normal"
+
+        android:hint="Employee Designation"/>
+
+
+
+
+</LinearLayout>
